@@ -290,7 +290,7 @@ export default function Resume() {
                   {about.description}
                 </p>
 
-                <ul className='grid grid-cols-1 xl:grid-cols-2 gap-y-6  max-w-[620px] mx-auto xl:mx-0'>
+                <ul className='grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-6  max-w-[620px] mx-auto xl:mx-0'>
                   {about.info.map((item, index) => {
                     return (
                       <li
