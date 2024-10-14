@@ -9,7 +9,7 @@ const Header = () => {
           Daniel<span className='text-accent'>.</span>
         </h1>
 
-        <ul className='flex gap-5 items-center text-sm'>
+        <ul className=' gap-5 items-center text-sm hidden lg:flex'>
           <li className='text-accent font-semibold'>Home</li>
           <li>Resume</li>
           <li>Services</li>
