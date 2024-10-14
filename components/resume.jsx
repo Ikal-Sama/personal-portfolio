@@ -231,7 +231,7 @@ export default function Resume() {
                           className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center  items-center lg:items-start gap-1'
                         >
                           <span className='text-accent'>{item.duration}</span>
-                          <h3 className='text-xl max-w-[260px] min-h-[60px] text-center lg:text-left'>
+                          <h3 className='text-xl max-w-[260px] min-h-[88px] text-center lg:text-left'>
                             {item.degree}
                           </h3>
                           <div className='flex items-center gap-3'>
@@ -262,7 +262,7 @@ export default function Resume() {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className='w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group'>
+                            <TooltipTrigger className='w-full h-[100px] bg-[#232329] rounded-xl flex justify-center items-center group'>
                               <div className='text-6xl group-hover:text-accent transition-all duration-300'>
                                 {skill.icon}
                               </div>
